@@ -13,3 +13,89 @@
  *= require_tree .
  *= require_self
  */
+
+*{
+   margin:0;
+   padding:0;
+   box-sizing: border-box;
+ }
+
+ header{
+   width:100%;
+   margin:20px;
+ }
+
+ .top-text1{
+   width:100%;
+   margin:30px;
+ }
+
+ .top-text2{
+   width:100%;
+   margin:30px;
+ }
+
+ .top-link{
+   width:100%;
+   margin:30px;
+ }
+/*トップ画面*/
+
+.flash{
+  width:100%;
+  margin:50px;
+}
+
+.show-main{
+  width:100%;
+  text-align:center;
+  margin:30px;
+}
+
+.show-main-title{
+  display:flex;
+  margin:20px;
+}
+
+.show-main-body{
+  display:flex;
+  margin:20px;
+}
+
+.show-link{
+  width:100%;
+  margin:15px;
+}
+/*詳細画面*/
+
+
+.edit-body{
+  width:100%;
+  margin:20px;
+}
+
+.edit-link{
+  margin-top:10px;
+}
+/*編集画面*/
+
+.index-header{
+  width:100%;
+  margin:20px;
+}
+
+td{
+  padding:5px;
+}
+/*一覧画面*/
+
+.new-header{
+  width:100%;
+  margin:20px;
+}
+
+.new-body{
+ width:100%;
+ margin:20px;
+}
+/*新規投稿画面*/
